@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: "Open Sans",sans-serif;
+}
+#navbar{
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    white-space: 3px;
+}
+header nav ul li{
+    padding: 6px;
+}
+header nav ul li a:hover{
+    background: white;
+    color: black;
+    border-radius: 6px;
+}
+#home{
+    text-align: center;
+    margin: 10px;
+}
+#home img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+#home h2{
+    font-size: 16px;
+    opacity: 25%;
+}
+#hakkımda{
+    text-align: center;
+}
+#hakkımda .baslık{
+    background: black;
+    text-align: center;
+    color: white;
+    margin: 170px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-radius: 9px;
+}
+#hakkımda p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: center;
+    color: white;
+}
+#hakkımda .paragraf{
+    margin: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background: black;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+#sertifikalar{
+    text-align: center;
+}
+#sertifikalar .baslık{
+    background: black;
+    text-align: center;
+    color: white;
+    margin: 170px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-radius: 9px;
+}
+#sertifikalar .sertfilarfoto{
+    margin: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background: white;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+#sertifikalar .sertfilarfoto .f{
+    width: 250px;
+    height: 250px;
+}
+#iletisim .baslık{
+
+    background: black;
+    text-align: center;
+    color: white;
+    margin: 170px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border-radius: 9px;
+
+}
+#iletisim .iletisimbilgi{
+    padding: 20px;
+    text-align: center;
+    margin: 170px;
+    margin-top:30px;
+    color: white;
+    background: black;
+    border-radius: 10px;
+
+}
+#iletisim .iletisimbilgi input{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+#iletisim .iletisimbilgi .mesaj{
+    width: 650px;
+    height: 500px;
+}
+.kydt{
+    background: blue;
+    padding: 10px;
+    border-radius: 9px;
+    
+}
